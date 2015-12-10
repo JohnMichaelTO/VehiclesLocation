@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="annuler.png">Ressources/annuler.png</file>
+        <file alias="enregistrer.png">Ressources/enregistrer.png</file>
+        <file alias="ouvrir.png">Ressources/ouvrir.png</file>
+        <file alias="quitter.png">Ressources/quitter.png</file>
+        <file alias="zoom_moins.png">Ressources/zoom_moins.png</file>
+        <file alias="zoom_plus.png">Ressources/zoom_plus.png</file>
+        <file alias="retablir.png">Ressources/retablir.png</file>
+        <file alias="grille.png">Ressources/grille.png</file>
+        <file alias="icone.png">Ressources/icone.png</file>
+        <file alias="aide.png">Ressources/aide.png</file>
+        <file alias="chercher.png">Ressources/chercher.png</file>
+        <file alias="coller.png">Ressources/coller.png</file>
+        <file alias="copier.png">Ressources/copier.png</file>
+        <file alias="couper.png">Ressources/couper.png</file>
+        <file>Ressources/deplacement.png</file>
+        <file>Ressources/edition.png</file>
+        <file alias="exporter.png">Ressources/exporter.png</file>
+        <file>Ressources/level_moins.png</file>
+        <file>Ressources/level_plus.png</file>
+        <file alias="nouveau.png">Ressources/nouveau.png</file>
+        <file>Ressources/ok.png</file>
+        <file alias="propriete.png">Ressources/propriete.png</file>
+        <file alias="recharger.png">Ressources/recharger.png</file>
+        <file alias="supprimer.png">Ressources/supprimer.png</file>
+        <file alias="imprimer.png">Ressources/imprimer.png</file>
+        <file alias="aperçu.png">Ressources/aperçu.png</file>
+        <file alias="importer.png">Ressources/import.png</file>
+        <file alias="edit.png">Ressources/edit.png</file>
+        <file alias="listeClient.png">Ressources/listeClient.png</file>
+        <file alias="repair.png">Ressources/repair.png</file>
+        <file alias="history.png">Ressources/history.png</file>
+        <file alias="new_contact.png">Ressources/new_contact.png</file>
+        <file alias="liste.png">Ressources/liste.png</file>
+        <file alias="stat.png">Ressources/stat.png</file>
+        <file alias="stop.png">Ressources/stop.png</file>
+        <file alias="del_contact.png">Ressources/del_contact.png</file>
+        <file alias="listeCar.png">Ressources/listeCar.png</file>
+        <file alias="voiture.png">Ressources/voiture.png</file>
+        <file alias="voitureplus.png">Ressources/voitureplus.png</file>
+        <file alias="voitureM.png">Ressources/voitureM.png</file>
+        <file alias="edit_contact.png">Ressources/edit_contact.png</file>
+        <file alias="add_moto.png">Ressources/add_moto.png</file>
+        <file alias="voiture_modif.png">Ressources/voiture_modif.png</file>
+        <file alias="add_contrat.png">Ressources/add_contrat.png</file>
+        <file alias="ListeClient.png">Ressources/listeClient.png</file>
+        <file alias="ListeExemplaire.png">Ressources/ListeExemplaire.png</file>
+        <file alias="afficher_devis.png">Ressources/afficher_devis.png</file>
+    </qresource>
+</RCC>

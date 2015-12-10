@@ -1,0 +1,87 @@
+1|Citroen|C1|Standard Petite|4|676|75-98|59|Essence|3|4
+2|Citroen|C3|Standard Petite|4|579|79-102|59|Essence|3|4
+3|Fiat|500|Standard Petite|4|558|83-109|65|Essence|3|4
+4|Ford|Fiesta|Standard Petite|4|575|80-105|59|Essence|3|4
+5|Opel|Corsa|Standard Petite|4|536|77-98|65|Essence|3|4
+6|Nissan|Micra|Standard Petite|4|598|75-98|59|Essence|3|4
+7|Peugeot|107|Standard Petite|4|693|77-94|59|Essence|3|4
+8|Renault|206|Standard Petite|4|600|75-98|59|Essence|3|4
+9|Smart|Fortwo|Standard Petite|4|570|86-120|65|Essence|3|2
+10|Alfa Roméo|Guilietta|Standard Moyenne|4|643|106-139|103|Diesel|5|5
+11|Citroen|C4|Standard Moyenne|4|694|116-163 |103|Diesel|5|5
+12|Fiat|Panda|Standard Moyenne|4|775|111-159|90|Diesel|5|5
+13|Fiat|Punto|Standard Moyenne|4|775|116-163 |103|Diesel|5|5
+14|Peugeot|308|Standard Moyenne|4|736|116-163 |103|Diesel|5|5
+15|Opel|Meriva|Standard Moyenne|4|766|111-159 |103|Diesel|5|5
+16|Renault|Clio|Standard Moyenne|4|638|106-139|103|Diesel|5|5
+17|Renault|Megane|Standard Moyenne|4|614|104-143|90|Diesel|5|5
+18|Volkswagen|Golf|Standard Moyenne|4|693|100-122|103|Diesel|5|5
+19|Volkswagen|Polo|Standard Moyenne|4|687|95-122|95|Diesel|5|5
+20|Ford|C-max|Monospace|4|826|135|102|Diesel|5|5
+21|Ford|Grand C-max|Monospace|4|889|136|102|Diesel|5|5
+22|Opel|Meriva|Monospace|4|913|146|102|Diesel|5|5
+23|Peugeot|2008|Monospace|4|825|138|111|Diesel|5|5
+24|Renault|Scénic|Monospace|4|869|139|111|Diesel|5|5
+25|Ford|Galaxy|Monospace|4|894|183|125|Diesel|5|7
+26|Peugeot|807|Monospace|4|921|141|125|Diesel|5|7
+27|Fiat|Scudo|Monospace|4|890|220|149|Diesel|5|9
+28|Renault|Traffic|Monospace|4|823|215|149|Diesel|5|9
+29|Audi|A7|Luxe|4|950|177|215|Diesel|5|5
+30|Audi|TT|Luxe|4|989|160|315|Diesel|2|2
+31|BMW|Serie 4 coupé|Luxe|4|942|179|172|Diesel|2|4
+32|BMW|Serie 5|Luxe|4|851|180|172|Diesel|5|5
+33|BMW|Serie 7|Luxe|4|900|174|200|Diesel|5|5
+34|Jaguar|XF|Luxe|4|861|149|315|Diesel|5|5
+35|Mercedes|Class E|Luxe|4|945|183|252|Diesel|5|5
+36|Mercedes|SLK|Luxe|4|948|184|315|Diesel|5|5
+37|Mercedes|SL|Luxe|4|937|174|280|Diesel|5|5
+38|Porshe|911|Luxe|4|869|220|765|Diesel|3|5
+39|Porshe|Carrera GTS|Luxe|4|977|214|720|Diesel|3|5
+40|BMW|X5|Luxe 4x4|4|1823|201|338|Diesel|5|5
+41|Land Rover|Evoque|Luxe 4x4|4|1945|230|338|Diesel|5|5
+42|Mercedes|ML|Luxe 4x4|4|1689|190|529|Diesel|5|5
+43|Volkswagen|Touareg|Luxe 4x4|4|1722|283|476|Diesel|5|5
+44|Audi|A5|Cabriolet|4|877|132|303|Diesel|5|5
+45|Audi|TT|Cabriolet|4|755|175|352|Diesel|5|5
+46|BMW|Mini Cooper|Cabriolet|4|800|154|170|Diesel|5|5
+47|BMW|Serie 1|Cabriolet|4|752|177|189|Diesel|5|5
+48|BMW|Serie 6|Cabriolet|4|772|178|265|Diesel|5|5
+49|BMW|Z4|Cabriolet|4|807|179|275|Diesel|3|5
+50|Fiat|500|Cabriolet|4|850|180|120|Diesel|3|5
+51|Mercedes|E250|Cabriolet|4|874|181|342|Diesel|5|5
+52|Peugeot|207 CC|Cabriolet|4|874|85|201|Diesel|5|5
+53|Peugeot|308 CC|Cabriolet|4|895|183|201|Diesel|5|5
+54|Porshe|Boxster S|Cabriolet|4|811|184|815|Diesel|3|5
+55|Renault|Megane CC|Cabriolet|4|776|185|210|Diesel|5|5
+56|Smart|Fortwo|Cabriolet|4|850|79|114|Diesel|3|2
+57|Volkswagen|Eos|Cabriolet|4|889|187|220|Diesel|5|5
+58|Volkswagen|Golf|Cabriolet|4|816|188|201|Diesel|5|5
+59|Citroen|Jumper|Utilitaire|4|1656|190|59|Diesel|3|3
+60|Citroen|Jumpy|Utilitaire|4|1620|191|59|Diesel|3|3
+61|Fiat|Doblo|Utilitaire|4|1700|191|59|Diesel|3|3
+62|Fiat|Ducato|Utilitaire|4|2560|197|63|Diesel|3|3
+63|Ford|Transit|Utilitaire|4|3152|194|63|Diesel|3|3
+64|Iveco|Daily 35C20|Utilitaire|4|5000|195|82|Diesel|3|3
+65|Iveco|Daily Hayon|Utilitaire|4|3000|241|63|Diesel|3|3
+66|Mercedes|Sprinter|Utilitaire|4|3140|221|63|Diesel|3|3
+67|Peugeot|Boxer|Utilitaire|4|3140|198|63|Diesel|3|3
+68|Peugeot|Expert|Utilitaire|4|5320|200|82|Diesel|3|3
+69|Renault|Traffic|Utilitaire|4|2350|198|63|Diesel|3|3
+70|Renault|Mascott|Utilitaire|4|3000|204|63|Diesel|3|3
+71|Renault|Master|Utilitaire|4|4100|215|70|Diesel|3|3
+72|Volkswagen|Crafter|Utilitaire|4|2540|204|63|Diesel|3|3
+73|BMW|F800 GS|Moto|2|214|110|131|798
+74|BMW|R1200R|Moto|2|223|137|173|1170
+75|Ducati|Monster|Moto|2|180|Electrique|136|800
+76|Ducati|Monster|Moto|2|169|100|128|700
+77|Harley Davidson|Dyna Street Bob|Moto|2|295|142|190|1584
+78|Honda|Varadero|Moto|2|149|85|70|125
+79|Honda|SWT|Moto|2|206|96|110|400
+80|Kawasaki|Z1000|Moto|2|236|132|185|1063
+81|Kawasaki|Z800|Moto|2|229|110|152|806
+82|Gilera|GP800|Moto|2|120|113|130|839
+83|Piaggio|MP3|Moto|3|152|Electrique|80|125
+84|Suzuki|Bandit 650|Moto|2|180|93|115|650
+85|Suzuki|Roadster |Moto|2|210|93|115|650
+86|Yamaha|FJR 1300|Moto|2|289|141|200|1300
+87|Yamaha|XJ6|Moto|2|215|81|80|125

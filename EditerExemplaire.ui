@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenExemplaire</class>
+ <widget class="QDialog" name="FenExemplaire">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>453</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>190</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>19</x>
+     <y>9</y>
+     <width>421</width>
+     <height>169</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="numero">
+      <property name="text">
+       <string>Numéro</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="numeroEdit">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="marque">
+      <property name="text">
+       <string>Marque</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="marqueEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="modele">
+      <property name="text">
+       <string>Modèle</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="modeleEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="km">
+      <property name="text">
+       <string>Kilométrage (km)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="kmEdit">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="couleur">
+      <property name="text">
+       <string>Couleur</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QComboBox" name="couleurEdit">
+      <item>
+       <property name="text">
+        <string>Noire</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Marron</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Grise</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jaune</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rouge</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Verte</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bleue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Orange</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rose</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Beige</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Blanche</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="disponible">
+      <property name="text">
+       <string>Disponible</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="disponibleEdit">
+      <item>
+       <property name="text">
+        <string>oui</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>non</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>FenExemplaire</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>FenExemplaire</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

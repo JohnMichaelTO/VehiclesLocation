@@ -1,0 +1,20 @@
+1|Ochocola|Douglas|56|224|Des Grands Champs|75001|Paris
+2|Goche|Elvira|48|238|Avenue Daumesnil|75003|Paris
+3|Vitlézembrouilles|Eve|51|77|Rue Des Abreuvoirs|75002|Paris
+4|Fer|Lucie|42|51|Rue Henri Martin|75017|Paris
+5|Ochon|Paul|18|92|Avenue De La Bretagne|75018|Paris
+6|Enbavé|Yvon|51|105|Boulevard Malesherbes|75002|Paris
+7|Provist|Alain|31|44|Rue Petit|75003|Paris
+8|Pique|Sam|44|85|Impasse Des Martyrs|75006|Paris
+9|Ptitpeu|Justin|50|55|Rue De La Pompe|75010|Paris
+10|Tar|Guy|57|124|Rue Du Ranelagh|75019|Paris
+11|Otique|Rob|54|60|Rue Michel Bizot|75004|Paris
+12|Zole|Camille|58|71|Rue De Picpus|75017|Paris
+13|Hymome|Max|77|210|Boulevard De La République|75002|Paris
+14|Cane|Jerry|32|29|Avenue Hoch|75016|Paris
+15|Dalors|Omer|23|7|Rue des Lilas|75011|Paris
+16|Geley|Ima|39|237|Avenue de Pantin|75002|Paris
+17|Hutte|Sacha|20|55|Avenue Jean Moulin|75014|Paris
+18|Tanrien|Jean|38|43|Rue Jean Macé|75005|Paris
+19|Atrovite|Yves|39|230|Avenue Jean Jaures|75013|Paris
+20|Dicule|Terry|65|179|Rue D'Alembert|75015|Paris

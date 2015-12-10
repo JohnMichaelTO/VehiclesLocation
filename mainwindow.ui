@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Location</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ressources.qrc">
+    <normaloff>:/icone.png</normaloff>:/icone.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuLocation">
+    <property name="title">
+     <string>Location</string>
+    </property>
+    <addaction name="actionRechercher"/>
+    <addaction name="separator"/>
+    <addaction name="actionEditer_un_devis"/>
+    <addaction name="actionAfficher_le_devis"/>
+    <addaction name="actionAfficher_la_facture"/>
+    <addaction name="separator"/>
+    <addaction name="actionNouvelle_location"/>
+    <addaction name="actionAnnuler_location"/>
+    <addaction name="actionRetour_de_location"/>
+    <addaction name="separator"/>
+    <addaction name="actionConsultation_des_locations"/>
+   </widget>
+   <widget class="QMenu" name="menuLocataires">
+    <property name="title">
+     <string>Locataires</string>
+    </property>
+    <addaction name="actionNouvel_emprunteur"/>
+    <addaction name="actionModifier_emprunteur"/>
+    <addaction name="actionSupprimer_emprunteur"/>
+    <addaction name="separator"/>
+    <addaction name="actionListe_des_emprunteurs"/>
+   </widget>
+   <widget class="QMenu" name="menuV_hicules">
+    <property name="title">
+     <string>Véhicules</string>
+    </property>
+    <widget class="QMenu" name="menuNouveau_v_hicule">
+     <property name="title">
+      <string>Nouveau véhicule</string>
+     </property>
+     <property name="icon">
+      <iconset resource="ressources.qrc">
+       <normaloff>:/voiture.png</normaloff>:/voiture.png</iconset>
+     </property>
+     <addaction name="actionNouvelle_voiture"/>
+     <addaction name="actionNouvelle_Moto"/>
+    </widget>
+    <addaction name="menuNouveau_v_hicule"/>
+    <addaction name="actionModifier_v_hicule"/>
+    <addaction name="actionSupprimer_v_hicule"/>
+    <addaction name="separator"/>
+    <addaction name="actionListe_des_v_hicules"/>
+    <addaction name="separator"/>
+    <addaction name="actionAjouter_un_exemplaire"/>
+    <addaction name="actionModifier_un_exemplaire"/>
+    <addaction name="actionSupprimer_un_exemplaire"/>
+    <addaction name="separator"/>
+    <addaction name="actionListe_des_v_hicules_pr_sents"/>
+   </widget>
+   <widget class="QMenu" name="menuAide">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionListe_des_commandes"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuLocation"/>
+   <addaction name="menuLocataires"/>
+   <addaction name="menuV_hicules"/>
+   <addaction name="menuAide"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="AfficherTB">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>Afficher</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionConsultation_des_locations"/>
+   <addaction name="actionListe_des_emprunteurs"/>
+   <addaction name="actionListe_des_v_hicules"/>
+   <addaction name="actionListe_des_v_hicules_pr_sents"/>
+  </widget>
+  <widget class="QToolBar" name="IconesAfficherTB">
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="windowTitle">
+    <string>Icônes</string>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRechercher"/>
+   <addaction name="separator"/>
+   <addaction name="actionNouvel_emprunteur"/>
+   <addaction name="actionSupprimer_emprunteur"/>
+   <addaction name="actionModifier_emprunteur"/>
+   <addaction name="actionSupprimer_v_hicule"/>
+   <addaction name="actionNouvelle_voiture"/>
+   <addaction name="actionModifier_v_hicule"/>
+   <addaction name="actionNouvelle_Moto"/>
+   <addaction name="actionNouvelle_location"/>
+   <addaction name="actionEditer_un_devis"/>
+   <addaction name="actionAnnuler_location"/>
+   <addaction name="actionRetour_de_location"/>
+   <addaction name="actionAjouter_un_exemplaire"/>
+   <addaction name="actionSupprimer_un_exemplaire"/>
+   <addaction name="actionModifier_un_exemplaire"/>
+  </widget>
+  <action name="actionOuvrir">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/ouvrir.png</normaloff>:/ouvrir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ouvrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionEnregistrer">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/enregistrer.png</normaloff>:/enregistrer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Enregistrer</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_sous">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/enregistrer.png</normaloff>:/enregistrer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Enregistrer-sous</string>
+   </property>
+  </action>
+  <action name="actionImporter_des_clients_2">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/importer.png</normaloff>:/importer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Importer des clients</string>
+   </property>
+  </action>
+  <action name="actionAper_u_avant_impression">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/aperçu.png</normaloff>:/aperçu.png</iconset>
+   </property>
+   <property name="text">
+    <string>Aperçu avant impression</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+P</string>
+   </property>
+  </action>
+  <action name="actionImprimer">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/imprimer.png</normaloff>:/imprimer.png</iconset>
+   </property>
+   <property name="text">
+    <string>Imprimer</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/quitter.png</normaloff>:/quitter.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionRechercher">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/chercher.png</normaloff>:/chercher.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rechercher</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionEditer_un_devis">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/edit.png</normaloff>:/edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Editer un devis</string>
+   </property>
+   <property name="shortcut">
+    <string>F3</string>
+   </property>
+  </action>
+  <action name="actionNouvelle_location">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/add_contrat.png</normaloff>:/add_contrat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nouvelle location</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+  <action name="actionRetour_de_location">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/icone.png</normaloff>:/icone.png</iconset>
+   </property>
+   <property name="text">
+    <string>Retour de location</string>
+   </property>
+   <property name="shortcut">
+    <string>F6</string>
+   </property>
+  </action>
+  <action name="actionConsultation_des_locations">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/history.png</normaloff>:/history.png</iconset>
+   </property>
+   <property name="text">
+    <string>Consultation des locations</string>
+   </property>
+   <property name="shortcut">
+    <string>F7</string>
+   </property>
+  </action>
+  <action name="actionNouvel_emprunteur">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/new_contact.png</normaloff>:/new_contact.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nouvel emprunteur</string>
+   </property>
+   <property name="shortcut">
+    <string>F1</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionListe_des_emprunteurs">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/listeClient.png</normaloff>:/listeClient.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liste des emprunteurs</string>
+   </property>
+   <property name="shortcut">
+    <string>F2</string>
+   </property>
+  </action>
+  <action name="actionListe_des_v_hicules">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/listeCar.png</normaloff>:/listeCar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liste des véhicules</string>
+   </property>
+   <property name="shortcut">
+    <string>F4</string>
+   </property>
+  </action>
+  <action name="actionListe_des_entretients">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/repair.png</normaloff>:/repair.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liste des entretients</string>
+   </property>
+  </action>
+  <action name="actionV_hicules_les_plus_emprent_s">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/stat.png</normaloff>:/stat.png</iconset>
+   </property>
+   <property name="text">
+    <string>Véhicules les plus emprentés</string>
+   </property>
+   <property name="shortcut">
+    <string>F8</string>
+   </property>
+  </action>
+  <action name="actionHistorique_de_location">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/history.png</normaloff>:/history.png</iconset>
+   </property>
+   <property name="text">
+    <string>Historique de location</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionListe_des_commandes">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/aide.png</normaloff>:/aide.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liste des commandes</string>
+   </property>
+   <property name="shortcut">
+    <string>F10</string>
+   </property>
+  </action>
+  <action name="actionAnnuler_location">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/stop.png</normaloff>:/stop.png</iconset>
+   </property>
+   <property name="text">
+    <string>Annuler location</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_emprunteur">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/del_contact.png</normaloff>:/del_contact.png</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer emprunteur</string>
+   </property>
+   <property name="shortcut">
+    <string>Del</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_v_hicule">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voitureM.png</normaloff>:/voitureM.png</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer véhicule</string>
+   </property>
+  </action>
+  <action name="actionModifier_emprunteur">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/edit_contact.png</normaloff>:/edit_contact.png</iconset>
+   </property>
+   <property name="text">
+    <string>Modifier emprunteur</string>
+   </property>
+  </action>
+  <action name="actionModifier_v_hicule">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voiture_modif.png</normaloff>:/voiture_modif.png</iconset>
+   </property>
+   <property name="text">
+    <string>Modifier véhicule</string>
+   </property>
+  </action>
+  <action name="actionNouvelle_voiture">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voitureplus.png</normaloff>:/voitureplus.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nouvelle voiture</string>
+   </property>
+  </action>
+  <action name="actionNouvelle_Moto">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/add_moto.png</normaloff>:/add_moto.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nouvelle Moto</string>
+   </property>
+  </action>
+  <action name="actionListe_des_v_hicules_pr_sents">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/ListeExemplaire.png</normaloff>:/ListeExemplaire.png</iconset>
+   </property>
+   <property name="text">
+    <string>Liste des véhicules présents</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_exemplaire">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voitureplus.png</normaloff>:/voitureplus.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ajouter un exemplaire</string>
+   </property>
+  </action>
+  <action name="actionModifier_un_exemplaire">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voiture_modif.png</normaloff>:/voiture_modif.png</iconset>
+   </property>
+   <property name="text">
+    <string>Modifier un exemplaire</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_un_exemplaire">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/voitureM.png</normaloff>:/voitureM.png</iconset>
+   </property>
+   <property name="text">
+    <string>Supprimer un exemplaire</string>
+   </property>
+  </action>
+  <action name="actionAfficher_le_devis">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/afficher_devis.png</normaloff>:/afficher_devis.png</iconset>
+   </property>
+   <property name="text">
+    <string>Afficher le devis</string>
+   </property>
+  </action>
+  <action name="actionAfficher_la_facture">
+   <property name="icon">
+    <iconset resource="ressources.qrc">
+     <normaloff>:/afficher_devis.png</normaloff>:/afficher_devis.png</iconset>
+   </property>
+   <property name="text">
+    <string>Afficher la facture</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>signal1()</signal>
+  <slot>slot1()</slot>
+ </slots>
+</ui>
